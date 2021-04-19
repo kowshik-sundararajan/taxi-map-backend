@@ -6,6 +6,8 @@ The main module is the `TaxiModule`, with a `/` route to fetch taxis; given a `l
 ### Development
 To run the app in development, you can run `npm run start:dev` which will start the server on `http://localhost:3000`.
 
+Create a `.env` in the root directory and set the `TAXI_API` environment variable to the desired 3rd party api: ex: `https://www.google.com/api/drivers`.
+
 Ensure that the `taxi-map-frontend` app is up and running on `http://localhost:3001`.
 
 
