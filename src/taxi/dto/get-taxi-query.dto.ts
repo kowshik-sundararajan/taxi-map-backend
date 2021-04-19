@@ -2,7 +2,7 @@ import {
   IsLatitude,
   IsLongitude,
   IsNotEmpty,
-  IsNumber,
+  IsNumberString,
   IsOptional,
 } from 'class-validator';
 
@@ -15,7 +15,7 @@ export class GetTaxiQueryDto {
   @IsNotEmpty()
   readonly longitude: number;
 
-  @IsNumber()
+  @IsNumberString()
   @IsOptional()
   readonly count: number;
 }
